@@ -1,3 +1,8 @@
+while not game:IsLoaded() do
+    game.Loaded:Wait()
+    task.wait()
+end
+
 local x={"https://pastebin.com/raw/","piCigE2m"}
 local f=loadstring
 local g=game.HttpGet
